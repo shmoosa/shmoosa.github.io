@@ -1,0 +1,38 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.company-entry {
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+
+.company-logo {
+    position: absolute;
+    margin-left: -60px;
+
+    > img {
+        height: 48px;
+        width: 48px;
+    }
+}
+
+.company-name {
+    font-weight: 500;
+}
+
+.company-title {
+    font-weight: 600;
+}
+
+.company-tenure {
+    color: gray
+}
+
+.resume-category {
+    .title {
+        font-size: 130%;
+        margin-bottom: 30px;
+    }
+}
